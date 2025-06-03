@@ -1,4 +1,4 @@
-import { Mail, Phone, MapPin, Clock } from 'lucide-react';
+import { Instagram, Phone, MapPin, Clock } from 'lucide-react';
 
 const ContactSection = () => {
   return (
@@ -43,7 +43,7 @@ const ContactSection = () => {
                 </div>
                 
                 <div className="flex items-start">
-                  <Mail className="mr-3 text-oro flex-shrink-0 mt-1" size={24} />
+                  <Instagram className="mr-3 text-oro flex-shrink-0 mt-1" size={24} />
                   <div>
                     <h4 className="font-semibold mb-1">Instagram</h4>
                     <p className="text-marfil/80 text-sm">
