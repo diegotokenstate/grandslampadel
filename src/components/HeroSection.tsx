@@ -82,7 +82,7 @@ const HeroSection = () => {
               to="/registro"
               className="inline-flex items-center px-8 py-4 text-lg font-medium text-verde bg-marfil rounded-lg hover:bg-[#A8E0D9] transition-colors duration-300 transform hover:scale-105"
             >
-              Regístrate Ahora
+              inscríbete
             </Link>
           </motion.div>
 
