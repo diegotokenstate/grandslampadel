@@ -218,24 +218,12 @@ const AboutSection = () => {
         >
           <h3 className="text-2xl font-semibold text-verde mb-8 text-center">Cobertura Mediática</h3>
           <p className="subtitle text-medianoche/80 max-w-3xl mx-auto mb-8">Tu marca tendrá presencia en medios de alto impacto.</p>
-          <div className="grid grid-cols-2 md:grid-cols-5 gap-6">
-            {[
-              { number: "100k+", text: "Instagram" },
-              { number: "40k+", text: "TikTok" },
-              { number: "90k+", text: "Players" },
-              { number: "70k+", text: "Gente Bien" },
-              { number: "60k+", text: "El Mural" }
-            ].map((item, index) => (
-              <motion.div 
-                key={index}
-                className="bg-verde p-6 rounded-lg text-center text-marfil"
-                whileHover={{ scale: 1.05 }}
-                transition={{ duration: 0.2 }}
-              >
-                <div className="text-2xl font-bold mb-2">{item.number}</div>
-                <div className="text-sm">{item.text}</div>
-              </motion.div>
-            ))}
+          <div className="bg-verde p-8 rounded-lg text-center">
+            <div className="text-4xl font-bold text-marfil mb-2">+350,000</div>
+            <div className="text-xl text-marfil/80">Impresiones o vistas esperadas</div>
+            <div className="mt-4 text-marfil/60">
+              A través de Instagram, TikTok, Players, Gente Bien y El Mural
+            </div>
           </div>
         </motion.div>
 
