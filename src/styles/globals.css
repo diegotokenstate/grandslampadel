@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-verde: 37 88 79; /* #25584f */
+    --color-beige: 1 58 64; /* #013A40 */
+    --color-marfil: 255 255 255; /* #FFFFFF */
+    --color-medianoche: 10 10 10; /* #0A0A0A */
+  }
+  
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  body {
+    @apply bg-marfil text-medianoche font-body overflow-x-hidden;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading;
+  }
+}
+
+@layer components {
+  .container {
+    @apply px-4 mx-auto max-w-7xl;
+  }
+  
+  .btn {
+    @apply inline-block px-6 py-3 text-sm font-medium transition-all duration-300 rounded-md transform-gpu hover:scale-105;
+  }
+  
+  .btn-primary {
+    @apply bg-verde text-marfil hover:bg-beige hover:text-marfil;
+  }
+  
+  .btn-secondary {
+    @apply bg-beige text-marfil hover:bg-verde hover:text-marfil;
+  }
+  
+  .section {
+    @apply py-16 md:py-24;
+  }
+  
+  .section-title {
+    @apply mb-12 text-4xl font-bold text-center md:text-5xl;
+  }
+  
+  .subtitle {
+    @apply text-xl font-medium text-center md:text-2xl;
+  }
+
+  .glass-card {
+    @apply backdrop-blur-md bg-white/10 rounded-lg shadow-xl;
+  }
+}
+
+/* Performance optimizations */
+.will-change-transform {
+  will-change: transform;
+}
+
+/* Fallbacks for older browsers */
+@supports not (backdrop-filter: blur(8px)) {
+  .backdrop-blur-sm {
+    background-color: rgba(var(--color-beige), 0.95);
+  }
+}
