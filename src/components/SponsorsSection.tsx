@@ -155,6 +155,16 @@ const sponsors: Sponsor[] = [
     name: "Wu Nutrition",
     image: "https://imgur.com/lGviTeM.jpg",
     link: "https://wunutrition.com/"
+  },
+  {
+    name: "Atajo Outdoors",
+    image: "https://imgur.com/rCo7Vxe.jpg",
+    link: "https://www.instagram.com/atajooutdoors/"
+  },
+  {
+    name: "The Fulen Club",
+    image: "https://imgur.com/8BGKSkR.jpg",
+    link: "https://www.instagram.com/thefulenclub/"
   }
 ];
 
