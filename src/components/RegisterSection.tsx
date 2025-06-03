@@ -141,9 +141,9 @@ const RegisterSection = () => {
               <div>
                 <div className="text-xl font-semibold mb-2 text-marfil">First Serve</div>
                 <div className="text-3xl font-bold text-marfil mb-2">$1,300 MXN</div>
-                <div className="text-sm text-marfil/80">2-11 de julio</div>
+                <div className="text-sm text-marfil/80">3-16 de junio</div>
                 <p className="mt-2 text-marfil/90 text-sm">
-                  Beneficio exclusivo: Precio preferencial garantizado. Para jugadores que desean asegurar su participación desde el inicio.
+                  Precio preferencial. Acceso exclusivo para quienes se inscriben primero.
                 </p>
               </div>
             </div>
@@ -162,9 +162,9 @@ const RegisterSection = () => {
               <div>
                 <div className="text-xl font-semibold mb-2 text-marfil">Match Point</div>
                 <div className="text-3xl font-bold text-marfil mb-2">$1,400 MXN</div>
-                <div className="text-sm text-marfil/80">12-21 de julio</div>
+                <div className="text-sm text-marfil/80">17-30 de junio</div>
                 <p className="mt-2 text-marfil/90 text-sm">
-                  Inscripción sujeta a disponibilidad en los cuadros. Precios regulares del torneo.
+                  Fase regular. La inscripción sigue abierta mientras se completan los cuadros.
                 </p>
               </div>
             </div>
@@ -183,9 +183,9 @@ const RegisterSection = () => {
               <div>
                 <div className="text-xl font-semibold mb-2 text-marfil">Final Rush</div>
                 <div className="text-3xl font-bold text-marfil mb-2">$1,500 MXN</div>
-                <div className="text-sm text-marfil/80">22 julio - 4 agosto</div>
+                <div className="text-sm text-marfil/80">1-8 de julio</div>
                 <p className="mt-2 text-marfil/90 text-sm">
-                  Últimos lugares disponibles. Sujeto a cupo en categorías.
+                  Últimos lugares disponibles. Última oportunidad para ingresar al torneo.
                 </p>
               </div>
             </div>
@@ -194,8 +194,10 @@ const RegisterSection = () => {
 
         <div className="text-center text-marfil/90 space-y-3 mb-16">
           <p>Precios por jugador. Incluye acceso completo a todas las actividades del torneo.</p>
-          <p className="text-sm font-medium">Cierre oficial de inscripciones: domingo 4 de agosto</p>
-          <p className="text-sm text-marfil/80">La inscripción solo se confirmará al completar el pago correspondiente a cada fase.</p>
+          <p className="text-sm font-medium">Cierre oficial de inscripciones: lunes 8 de julio</p>
+          <p className="text-sm text-marfil/80">
+            El cierre de inscripciones el 8 de julio es necesario para garantizar la producción y entrega puntual del uniforme oficial (camiseta y gorra) y todos los materiales del torneo. Queremos brindarte una experiencia de calidad y sin contratiempos.
+          </p>
         </div>
         
         {/* Form and Why Participate Section */}
