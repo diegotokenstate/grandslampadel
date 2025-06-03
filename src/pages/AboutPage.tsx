@@ -30,7 +30,7 @@ const AboutPage = () => {
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat z-0"
           style={{ 
-            backgroundImage: 'url("https://imgur.com/kkE42eO.jpg")',
+            backgroundImage: 'url("https://imgur.com/K9kyHH0.jpg")',
             opacity: 0.6
           }}
         />
