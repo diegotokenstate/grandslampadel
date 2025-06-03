@@ -34,7 +34,7 @@ const AboutPage = () => {
             opacity: 0.6
           }}
         />
-        <div className="absolute inset-0 bg-medianoche/80 z-0" />
+        <div className="absolute inset-0 bg-medianoche/60 z-0" />
         <ThreeBackground />
 
         <motion.div 
