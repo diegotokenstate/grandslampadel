@@ -13,7 +13,7 @@ const ContactSection = () => {
           <div className="lg:col-span-2">
             <div className="bg-verde rounded-lg overflow-hidden h-full">
               <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3732.7127370905387!2d-103.41161548507555!3d20.677899986178843!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428ae4e98d5453d%3A0x5bc3c0a2815f5c2a!2sAv%205%20de%20Mayo%20343%2C%20Zapopan%2C%20Jal.!5e0!3m2!1ses-419!2smx!4v1647887291810!5m2!1ses-419!2smx"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3731.9729257001322!2d-103.45144972600073!3d20.711323998608126!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428af2c8e6f66f7%3A0x8870669e83d224bb!2sAv.%205%20de%20Mayo%20434%2C%20San%20Juan%20de%20Ocot%C3%A1n%2C%2045019%20Zapopan%2C%20Jal.!5e0!3m2!1ses!2smx!4v1748979139078!5m2!1ses!2smx"
                 width="100%" 
                 height="100%" 
                 style={{ border: 0, minHeight: "400px" }} 
@@ -36,7 +36,7 @@ const ContactSection = () => {
                     <h4 className="font-semibold mb-1">Sede del Torneo</h4>
                     <p className="text-marfil/80">
                       La Red Club De Padel<br />
-                      Av. 5 de Mayo 343<br />
+                      Av. 5 de Mayo 434<br />
                       Zapopan, Jalisco
                     </p>
                   </div>
