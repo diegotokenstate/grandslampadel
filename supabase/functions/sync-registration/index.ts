@@ -17,7 +17,7 @@ const registrationSchema = z.object({
   captain_whatsapp: z.string().min(1, 'WhatsApp del capitán es requerido'),
   team_name: z.string().optional().nullable(),
   category: z.enum([
-    '2nda-hombres',
+    '2da-hombres',
     '3ra-hombres',
     '4ta-hombres',
     '5ta-hombres',
