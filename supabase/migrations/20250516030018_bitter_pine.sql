@@ -35,7 +35,7 @@ WITH CHECK (
   AND category IS NOT NULL AND category != ''
   -- Validate category is one of the allowed values
   AND category IN (
-    '2nda-hombres',
+    '2da-hombres',
     '3ra-hombres',
     '4ta-hombres',
     '5ta-hombres',
