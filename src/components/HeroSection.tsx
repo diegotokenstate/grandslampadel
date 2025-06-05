@@ -28,7 +28,6 @@ const HeroSection = () => {
               duration: 0.8, 
               ease: [0.16, 1, 0.3, 1]
             }}
-            className="mb-2"
           >
             <GrandSlamLogo className="w-[650px] h-[650px] mx-auto" />
           </motion.div>
@@ -42,7 +41,6 @@ const HeroSection = () => {
               duration: 0.6,
               ease: [0.16, 1, 0.3, 1]
             }}
-            className="mb-4"
           >
             <Link 
               to="/registro"
@@ -54,7 +52,7 @@ const HeroSection = () => {
 
           {/* Subheading */}
           <motion.p 
-            className="text-xl md:text-2xl text-marfil/90 font-light mb-8 leading-relaxed"
+            className="text-xl md:text-2xl text-marfil/90 font-light mt-8 leading-relaxed"
             initial={{ y: 20, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ 
@@ -70,7 +68,7 @@ const HeroSection = () => {
 
           {/* Stats Grid */}
           <motion.div 
-            className="grid grid-cols-1 md:grid-cols-3 gap-8"
+            className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8"
             initial={{ y: 40, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ 
