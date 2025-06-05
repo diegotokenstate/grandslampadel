@@ -118,7 +118,7 @@ const sponsors: Sponsor[] = [
     link: "https://www.instagram.com/skarchmexico/"
   },
   {
-     name: "Seagram's Selzer",
+    name: "Seagram's Selzer",
     image: "https://imgur.com/YfnIPSJ.jpg",
     link: "https://seagramshardseltzer.mx/inicio/"
   }, 
@@ -171,6 +171,11 @@ const sponsors: Sponsor[] = [
     name: "The Fulen Club",
     image: "https://imgur.com/8BGKSkR.jpg",
     link: "https://www.instagram.com/thefulenclub/"
+  },
+  {
+    name: "Deyun Pharma",
+    image: "https://imgur.com/6rm2xR7.jpg",
+    link: "https://www.instagram.com/deyunpharmamx/"
   }
 ];
 
