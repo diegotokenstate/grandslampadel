@@ -16,7 +16,7 @@ const Navbar = () => {
   return (
     <div className="fixed top-0 left-0 right-0 z-50 px-4">
       <nav className="max-w-7xl mx-auto mt-4 bg-verde/95 backdrop-blur-sm rounded-2xl shadow-lg">
-        <div className="container flex items-center justify-between h-8">
+        <div className="container flex items-center justify-between h-2">
           <Link to="/" className="flex items-center">
             <span className="text-xl font-bold font-heading text-marfil">
               GRAND SLAM PADEL
