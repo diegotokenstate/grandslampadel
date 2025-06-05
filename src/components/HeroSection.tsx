@@ -30,7 +30,7 @@ const HeroSection = () => {
             }}
             className="mb-8"
           >
-            <GrandSlamLogo className="w-40 h-40 mx-auto" />
+            <GrandSlamLogo className="w-[272px] h-[272px] mx-auto" />
           </motion.div>
 
           {/* Headline */}
