@@ -28,32 +28,17 @@ const HeroSection = () => {
               duration: 0.8, 
               ease: [0.16, 1, 0.3, 1]
             }}
+            className="mb-8"
           >
             <GrandSlamLogo className="w-[650px] h-[650px] mx-auto" />
           </motion.div>
-
-          {/* Subheading */}
-          <motion.p 
-            className="text-xl md:text-2xl text-marfil/90 font-light mb-8 leading-relaxed"
-            initial={{ y: 20, opacity: 0 }}
-            animate={{ y: 0, opacity: 1 }}
-            transition={{ 
-              delay: 0.4, 
-              duration: 0.6,
-              ease: [0.16, 1, 0.3, 1]
-            }}
-          >
-            El inicio de una nueva era en el padel.
-            <br />
-            Un torneo que conecta a jóvenes en un ambiente vibrante.
-          </motion.p>
 
           {/* CTA Button */}
           <motion.div
             initial={{ y: 20, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ 
-              delay: 0.6, 
+              delay: 0.4, 
               duration: 0.6,
               ease: [0.16, 1, 0.3, 1]
             }}
@@ -66,6 +51,22 @@ const HeroSection = () => {
               Inscríbete
             </Link>
           </motion.div>
+
+          {/* Subheading */}
+          <motion.p 
+            className="text-xl md:text-2xl text-marfil/90 font-light mb-8 leading-relaxed"
+            initial={{ y: 20, opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
+            transition={{ 
+              delay: 0.6, 
+              duration: 0.6,
+              ease: [0.16, 1, 0.3, 1]
+            }}
+          >
+            El inicio de una nueva era en el padel.
+            <br />
+            Un torneo que conecta a jóvenes en un ambiente vibrante.
+          </motion.p>
 
           {/* Stats Grid */}
           <motion.div 
