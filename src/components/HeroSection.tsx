@@ -18,7 +18,7 @@ const HeroSection = () => {
       </div>
 
       {/* Content Container */}
-      <div className="relative z-10 container mx-auto px-4 pt-2">
+      <div className="relative z-10 container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center">
           {/* Logo Animation */}
           <motion.div
@@ -28,7 +28,7 @@ const HeroSection = () => {
               duration: 0.8, 
               ease: [0.16, 1, 0.3, 1]
             }}
-            className="mb-8"
+            className="mb-2"
           >
             <GrandSlamLogo className="w-[650px] h-[650px] mx-auto" />
           </motion.div>
@@ -38,11 +38,11 @@ const HeroSection = () => {
             initial={{ y: 20, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ 
-              delay: 0.4, 
+              delay: 0.2, 
               duration: 0.6,
               ease: [0.16, 1, 0.3, 1]
             }}
-            className="mb-8"
+            className="mb-4"
           >
             <Link 
               to="/registro"
@@ -58,7 +58,7 @@ const HeroSection = () => {
             initial={{ y: 20, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ 
-              delay: 0.6, 
+              delay: 0.4, 
               duration: 0.6,
               ease: [0.16, 1, 0.3, 1]
             }}
