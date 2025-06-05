@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 const HeroSection = () => {
   return (
-    <section className="relative min-h-screen flex flex-col items-start overflow-hidden pt-8">
+    <section className="relative min-h-screen flex flex-col items-start overflow-hidden">
       {/* Static background with gradient overlay */}
       <div className="absolute inset-0 w-full h-full">
         <div className="absolute inset-0 bg-[#25584f] mix-blend-multiply" />
@@ -18,7 +18,7 @@ const HeroSection = () => {
       </div>
 
       {/* Content Container */}
-      <div className="relative z-10 container mx-auto px-4 mt-4">
+      <div className="relative z-10 container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center">
           {/* Logo Animation */}
           <motion.div
