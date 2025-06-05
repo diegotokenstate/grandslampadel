@@ -51,7 +51,7 @@ const HeroSection = () => {
             animate={{ scale: 1, opacity: 1 }}
             transition={{ duration: 0.5 }}
           >
-            <GrandSlamLogo className="w-32 h-32 mx-auto mb-8" />
+            <GrandSlamLogo className="w-32 h-32 mx-auto mb-2" />
           </motion.div>
           
           <motion.h1 
