@@ -97,11 +97,6 @@ const sponsors: Sponsor[] = [
     link: "https://www.instagram.com/betterwaremexico/"
   },
   {
-    name: "Deyun Pharma",
-    image: "https://imgur.com/6rm2xR7.jpg",
-    link: "https://www.instagram.com/deyunpharmamx/"
-  },
-  {
     name: "Jägermeister",
     image: "https://imgur.com/VjqZkUP.jpg",
     link: "https://www.instagram.com/jagermeistermx/"
