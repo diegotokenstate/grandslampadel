@@ -32,24 +32,6 @@ const HeroSection = () => {
             <GrandSlamLogo className="w-[650px] h-[650px] mx-auto" />
           </motion.div>
 
-          {/* Headline */}
-          <motion.div
-            initial={{ y: 20, opacity: 0 }}
-            animate={{ y: 0, opacity: 1 }}
-            transition={{ 
-              delay: 0.2, 
-              duration: 0.6,
-              ease: [0.16, 1, 0.3, 1]
-            }}
-            className="mb-4"
-          >
-            <h1 className="text-5xl md:text-7xl font-heading font-bold text-marfil tracking-tight">
-              <span className="text-[#A8E0D9]">GRAND SLAM</span>
-              <br />
-              PADEL
-            </h1>
-          </motion.div>
-
           {/* Subheading */}
           <motion.p 
             className="text-xl md:text-2xl text-marfil/90 font-light mb-8 leading-relaxed"
