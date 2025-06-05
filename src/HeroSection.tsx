@@ -31,7 +31,7 @@ const HeroSection = () => {
     <section 
       ref={containerRef}
       id="home" 
-      className="relative h-auto flex items-center pt-6 overflow-hidden snap-start"
+      className="relative h-auto flex items-start pt-6 overflow-hidden snap-start"
     >
       <motion.div 
         className="absolute inset-0"
