@@ -161,6 +161,11 @@ const sponsors: Sponsor[] = [
     image: "https://imgur.com/rCo7Vxe.jpg",
     link: "https://www.instagram.com/atajooutdoors/"
   },
+   {
+    name: "Deyun Pharma",
+    image: "https://imgur.com/6rm2xR7.jpg",
+    link: "https://www.instagram.com/deyunpharmamx/"
+  }
   {
     name: "The Fulen Club",
     image: "https://imgur.com/8BGKSkR.jpg",
