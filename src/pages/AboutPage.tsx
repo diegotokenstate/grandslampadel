@@ -87,7 +87,7 @@ const AboutPage = () => {
             </div>
             <div className="md:w-1/2 flex items-center justify-center p-12 bg-gradient-to-br from-verde/5 to-beige/5 rounded-2xl">
               <img 
-                src="https://imgur.com/aGw0ftx.png" 
+                src="https://imgur.com/TGi4zvB.png" 
                 alt="GRAND SLAM PADEL Logo"
                 className="w-full max-w-[300px] h-auto object-contain"
               />
