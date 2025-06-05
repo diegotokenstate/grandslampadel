@@ -99,7 +99,7 @@ const HeroSection = () => {
                 initial="hidden"
                 whileInView="visible"
                 viewport={{ once: true }}
-                className="bg-beige/80 p-6 rounded-lg backdrop-blur-sm flex flex-col items-center justify-center"
+                className="bg-beige/80 p-6 rounded-lg backdrop-blur-sm flex flex-col items-start justify-center"
                 whileHover={{ scale: 1.05 }}
                 transition={{ duration: 0.2 }}
               >
