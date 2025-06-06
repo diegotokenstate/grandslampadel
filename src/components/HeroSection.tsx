@@ -19,7 +19,7 @@ const HeroSection = () => {
 
       {/* Content Container */}
       <div className="relative z-10 container mx-auto px-4">
-        <div className="max-w-4xl mx-auto text-center">
+        <div className="max-w-4xl mx-auto">
           {/* Logo Animation */}
           <motion.div
             initial={{ scale: 0.8, opacity: 0 }}
@@ -28,74 +28,77 @@ const HeroSection = () => {
               duration: 0.8, 
               ease: [0.16, 1, 0.3, 1]
             }}
+            className="ml-[-50px]"
           >
-            <GrandSlamLogo className="w-[600px] h-[400px] mx-auto" />
+            <GrandSlamLogo className="w-[600px] h-[400px]" />
           </motion.div>
 
-          {/* CTA Button */}
-          <motion.div
-            initial={{ y: 20, opacity: 0 }}
-            animate={{ y: 0, opacity: 1 }}
-            transition={{ 
-              delay: 0.2, 
-              duration: 0.6,
-              ease: [0.16, 1, 0.3, 1]
-            }}
-          >
-            <Link 
-              to="/registro"
-              className="inline-flex items-center px-8 py-4 text-lg font-medium text-verde bg-marfil rounded-lg hover:bg-[#A8E0D9] transition-colors duration-300 transform hover:scale-105"
+          <div className="text-center">
+            {/* CTA Button */}
+            <motion.div
+              initial={{ y: 20, opacity: 0 }}
+              animate={{ y: 0, opacity: 1 }}
+              transition={{ 
+                delay: 0.2, 
+                duration: 0.6,
+                ease: [0.16, 1, 0.3, 1]
+              }}
             >
-              Inscríbete
-            </Link>
-          </motion.div>
-
-          {/* Subheading */}
-          <motion.p 
-            className="text-xl md:text-2xl text-marfil/90 font-light mt-4 leading-relaxed"
-            initial={{ y: 20, opacity: 0 }}
-            animate={{ y: 0, opacity: 1 }}
-            transition={{ 
-              delay: 0.4, 
-              duration: 0.6,
-              ease: [0.16, 1, 0.3, 1]
-            }}
-          >
-            El inicio de una nueva era en el padel.
-            <br />
-            Un torneo que conecta a jóvenes en un ambiente vibrante.
-          </motion.p>
-
-          {/* Stats Grid */}
-          <motion.div 
-            className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-6"
-            initial={{ y: 40, opacity: 0 }}
-            animate={{ y: 0, opacity: 1 }}
-            transition={{ 
-              delay: 0.8, 
-              duration: 0.8,
-              ease: [0.16, 1, 0.3, 1]
-            }}
-          >
-            {[
-              { number: "23-24", label: "Agosto 2025" },
-              { number: "160", label: "Jugadores" },
-              { number: "300+", label: "Visitantes" }
-            ].map((stat, index) => (
-              <motion.div
-                key={index}
-                className="bg-marfil/10 backdrop-blur-sm p-6 rounded-lg border border-marfil/20"
-                whileHover={{ 
-                  scale: 1.05,
-                  backgroundColor: "rgba(255, 255, 255, 0.15)"
-                }}
-                transition={{ duration: 0.2 }}
+              <Link 
+                to="/registro"
+                className="inline-flex items-center px-8 py-4 text-lg font-medium text-verde bg-marfil rounded-lg hover:bg-[#A8E0D9] transition-colors duration-300 transform hover:scale-105"
               >
-                <div className="text-3xl font-bold text-marfil mb-1">{stat.number}</div>
-                <div className="text-marfil/80">{stat.label}</div>
-              </motion.div>
-            ))}
-          </motion.div>
+                Inscríbete
+              </Link>
+            </motion.div>
+
+            {/* Subheading */}
+            <motion.p 
+              className="text-xl md:text-2xl text-marfil/90 font-light mt-4 leading-relaxed"
+              initial={{ y: 20, opacity: 0 }}
+              animate={{ y: 0, opacity: 1 }}
+              transition={{ 
+                delay: 0.4, 
+                duration: 0.6,
+                ease: [0.16, 1, 0.3, 1]
+              }}
+            >
+              El inicio de una nueva era en el padel.
+              <br />
+              Un torneo que conecta a jóvenes en un ambiente vibrante.
+            </motion.p>
+
+            {/* Stats Grid */}
+            <motion.div 
+              className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-6"
+              initial={{ y: 40, opacity: 0 }}
+              animate={{ y: 0, opacity: 1 }}
+              transition={{ 
+                delay: 0.8, 
+                duration: 0.8,
+                ease: [0.16, 1, 0.3, 1]
+              }}
+            >
+              {[
+                { number: "23-24", label: "Agosto 2025" },
+                { number: "160", label: "Jugadores" },
+                { number: "300+", label: "Visitantes" }
+              ].map((stat, index) => (
+                <motion.div
+                  key={index}
+                  className="bg-marfil/10 backdrop-blur-sm p-6 rounded-lg border border-marfil/20"
+                  whileHover={{ 
+                    scale: 1.05,
+                    backgroundColor: "rgba(255, 255, 255, 0.15)"
+                  }}
+                  transition={{ duration: 0.2 }}
+                >
+                  <div className="text-3xl font-bold text-marfil mb-1">{stat.number}</div>
+                  <div className="text-marfil/80">{stat.label}</div>
+                </motion.div>
+              ))}
+            </motion.div>
+          </div>
         </div>
       </div>
     </section>
