@@ -19,7 +19,7 @@ const HeroSection = () => {
 
       {/* Content Container */}
       <div className="relative z-10 container mx-auto px-4">
-        <div className="max-w-4xl text-left pl-8">
+        <div className="max-w-4xl mx-auto text-center">
           {/* Logo Animation */}
           <motion.div
             initial={{ scale: 0.8, opacity: 0 }}
@@ -29,7 +29,7 @@ const HeroSection = () => {
               ease: [0.16, 1, 0.3, 1]
             }}
           >
-            <GrandSlamLogo className="w-[600px] h-[400px]" />
+            <GrandSlamLogo className="w-[600px] h-[400px] mx-auto" />
           </motion.div>
 
           {/* CTA Button */}
