@@ -28,7 +28,7 @@ const HeroSection = () => {
               duration: 0.8, 
               ease: [0.16, 1, 0.3, 1]
             }}
-            className="relative left-5"
+            className="relative left-8"
           >
             <GrandSlamLogo className="w-[600px] h-[400px]" />
           </motion.div>
