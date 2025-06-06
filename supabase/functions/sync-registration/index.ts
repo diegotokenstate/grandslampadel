@@ -27,10 +27,11 @@ const registrationSchema = z.object({
   status: z.enum(['pending', 'approved', 'rejected'], {
     errorMap: () => ({ message: 'Estado inválido' })
   }).default('pending'),
+  player1_shirt_size: z.string(),
+  player2_shirt_size: z.string()
 });
 
 serve(async (req) => {
-  // Handle CORS preflight requests
   if (req.method === 'OPTIONS') {
     return new Response(null, { headers: corsHeaders });
   }
