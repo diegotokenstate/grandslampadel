@@ -29,7 +29,7 @@ const HeroSection = () => {
               ease: [0.16, 1, 0.3, 1]
             }}
           >
-            <GrandSlamLogo className="w-[650px] h-[300px] mx-auto" />
+            <GrandSlamLogo className="w-[650px] h-[450px] mx-auto" />
           </motion.div>
 
           {/* CTA Button */}
