@@ -28,7 +28,7 @@ const HeroSection = () => {
               duration: 0.8, 
               ease: [0.16, 1, 0.3, 1]
             }}
-            className="relative left-1"
+            className="flex justify-center w-full transform -translate-x-5"
           >
             <GrandSlamLogo className="w-[600px] h-[400px]" />
           </motion.div>
