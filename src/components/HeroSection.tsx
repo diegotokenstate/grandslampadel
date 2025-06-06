@@ -52,7 +52,7 @@ const HeroSection = () => {
 
           {/* Subheading */}
           <motion.p 
-            className="text-xl md:text-2xl text-marfil/90 font-light mt-8 leading-relaxed"
+            className="text-xl md:text-2xl text-marfil/90 font-light mt-4 leading-relaxed"
             initial={{ y: 20, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ 
@@ -68,7 +68,7 @@ const HeroSection = () => {
 
           {/* Stats Grid */}
           <motion.div 
-            className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8"
+            className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-6"
             initial={{ y: 40, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ 
