@@ -1,10 +1,35 @@
 import { GrandSlamLogo } from './icons/GrandSlamLogo';
 import { Link } from 'react-router-dom';
-import { motion } from 'framer-motion';
+import { motion, useScroll, useTransform } from 'framer-motion';
+import { useRef } from 'react';
 
 const HeroSection = () => {
+  const containerRef = useRef<HTMLElement>(null);
+  const { scrollYProgress } = useScroll({
+    target: containerRef,
+    offset: ["start start", "end start"]
+  });
+
+  const cardsProgress = useTransform(scrollYProgress, [0, 0.3], [0, 1]);
+
+  const cardVariants = {
+    hidden: { opacity: 0, y: 50 },
+    visible: (i: number) => ({
+      opacity: 1,
+      y: 0,
+      transition: {
+        delay: i * 0.2,
+        duration: 0.5,
+        ease: "easeOut"
+      }
+    })
+  };
+
   return (
-    <section className="relative h-auto flex flex-col items-start overflow-hidden pt-24">
+    <section 
+      ref={containerRef}
+      className="relative min-h-screen flex items-center justify-center overflow-hidden snap-start pt-24"
+    >
       {/* Static background with gradient overlay */}
       <div className="absolute inset-0 w-full h-full">
         <div className="absolute inset-0 bg-[#25584f] mix-blend-multiply" />
@@ -71,13 +96,7 @@ const HeroSection = () => {
             {/* Stats Grid */}
             <motion.div 
               className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-6"
-              initial={{ y: 40, opacity: 0 }}
-              animate={{ y: 0, opacity: 1 }}
-              transition={{ 
-                delay: 0.8, 
-                duration: 0.8,
-                ease: [0.16, 1, 0.3, 1]
-              }}
+              style={{ opacity: cardsProgress }}
             >
               {[
                 { number: "23-24", label: "Agosto 2025" },
@@ -86,6 +105,11 @@ const HeroSection = () => {
               ].map((stat, index) => (
                 <motion.div
                   key={index}
+                  custom={index}
+                  variants={cardVariants}
+                  initial="hidden"
+                  whileInView="visible"
+                  viewport={{ once: true }}
                   className="bg-marfil/10 backdrop-blur-sm p-6 rounded-lg border border-marfil/20"
                   whileHover={{ 
                     scale: 1.05,

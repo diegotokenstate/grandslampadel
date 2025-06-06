@@ -31,10 +31,10 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={
-            <main className="flex-grow">
+            <>
               <HeroSection />
               <AboutSection />
-            </main>
+            </>
           } />
           <Route path="/registro" element={<RegisterPage />} />
           <Route path="/patrocinadores" element={<SponsorsPage />} />

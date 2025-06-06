@@ -11,7 +11,7 @@ const AboutSection = () => {
   });
 
   return (
-    <section id="about" className="section bg-marfil overflow-hidden">
+    <section id="about" className="section bg-marfil overflow-hidden snap-start">
       <div className="container">
         <motion.h2 
           className="section-title text-verde"
