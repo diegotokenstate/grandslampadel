@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 const HeroSection = () => {
   return (
-    <section className="relative h-auto flex flex-col items-start overflow-hidden">
+    <section className="relative h-auto flex flex-col items-start overflow-hidden pt-24">
       {/* Static background with gradient overlay */}
       <div className="absolute inset-0 w-full h-full">
         <div className="absolute inset-0 bg-[#25584f] mix-blend-multiply" />
