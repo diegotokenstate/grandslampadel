@@ -121,11 +121,11 @@ const RegisterSection = () => {
   return (
     <section id="register" className="section relative overflow-hidden py-24">
       <div 
-        className="absolute inset-0 bg-center bg-no-repeat opacity-85"
+        className="absolute inset-0 bg-no-repeat opacity-85"
         style={{ 
           backgroundImage: 'url("https://imgur.com/c7QH0c9.jpg")',
-          backgroundSize: 'cover',
-          backgroundPosition: 'center 30%',
+          backgroundSize: 'contain',
+          backgroundPosition: 'center',
           filter: 'brightness(0.85)'
         }}
       />
