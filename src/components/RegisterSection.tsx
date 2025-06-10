@@ -119,7 +119,7 @@ const RegisterSection = () => {
   const shirtSizes = ['XS', 'S', 'M', 'L', 'XL', 'XXL'];
   
   return (
-    <section id="register" className="section relative overflow-hidden py-24">
+    <section id="register" className="section relative overflow-hidden py-24 bg-medianoche">
       <div 
         className="absolute inset-0 bg-no-repeat opacity-85"
         style={{ 
