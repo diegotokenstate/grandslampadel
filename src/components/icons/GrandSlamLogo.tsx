@@ -7,7 +7,7 @@ interface LogoProps {
 export const GrandSlamLogo: React.FC<LogoProps> = ({ className }) => {
   return (
     <img 
-      src="https://i.imgur.com/iBJ8P32.png"
+      src="https://i.imgur.com/H4yGnHV.png"
       alt="GRAND SLAM PADEL Logo"
       className={className}
       style={{ objectFit: 'contain' }}
