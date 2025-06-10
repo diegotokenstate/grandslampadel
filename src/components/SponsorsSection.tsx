@@ -60,6 +60,11 @@ const sponsors: Sponsor[] = [
     name: "Come Verde",
     image: "https://imgur.com/yLDFa4k.jpg",
     link: "https://www.comeverde.mx/"
+  },
+  {
+    name: "Café La Flor De Córdoba",
+    image: "https://imgur.com/BZxt0nT.jpg",
+    link: "https://www.instagram.com/laflordecordoba/"
   }
 ];
 
