@@ -186,7 +186,18 @@ const sponsors: Sponsor[] = [
     name: "Omigoto",
     image: "https://imgur.com/yjSCL5S.jpg",
     link: "https://www.instagram.com/omigotomx/"
+  },
+   {
+    name: "Grupo Ocurrente",
+    image: "https://imgur.com/XaaSM5P.jpg",
+    link: "https://www.instagram.com/grupoocurrente/"
+  },
+    {
+    name: "ACA",
+    image: "https://imgur.com/XaututH.jpg",
+    link: "https://www.instagram.com/acapadelmx/"
   }
+  
 ];
 
 const SponsorsPage = () => {
