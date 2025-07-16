@@ -39,7 +39,7 @@ const sponsors: Sponsor[] = [
   },
   {
     name: "Smirnoff",
-    image: "https://imgur.com/v5rvPQP.jpg",
+    image: "https://imgur.com/fIBClNR.jpg",
     link: "https://www.instagram.com/smirnoffmx/"
   },
   {
