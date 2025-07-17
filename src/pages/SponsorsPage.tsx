@@ -207,8 +207,36 @@ const sponsors: Sponsor[] = [
     image: "https://imgur.com/qnY8dXJ.jpg",
     link: "https://www.instagram.com/eloisebakedgoods/"
   },
-  
-  
+    {
+    name: "Vida Flora",
+    image: "https://imgur.com/dmNHxYX.jpg",
+    link: "https://www.instagram.com/vidafloramx/"
+  },
+    {
+    name: "Habits",
+    image: "https://imgur.com/eJ4OwrU.jpg",
+    link: "https://www.instagram.com/habitsproteins/"
+  },
+    {
+    name: "Acai Wowl",
+    image: "https://imgur.com/dRswIyC.jpg",
+    link: "https://www.instagram.com/wowlacai/"
+  },
+    {
+    name: "Los Charros",
+    image: "https://imgur.com/yiFs2aZ.jpg",
+    link: "https://www.instagram.com/charrosbeisbol/"
+  },
+    {
+    name: "Refuse",
+    image: "https://imgur.com/cc5ErFm.jpg",
+    link: "https://www.instagram.com/refuse.mx/"
+  },
+    {
+    name: "AO Sports",
+    image: "https://imgur.com/ZWof6hk.jpg",
+    link: "https://www.instagram.com/ao.sport.mx/"
+  }
 ];
 
 const SponsorsPage = () => {
