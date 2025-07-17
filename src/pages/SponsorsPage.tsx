@@ -49,7 +49,7 @@ const sponsors: Sponsor[] = [
   },
   {
     name: "Premier Nuts",
-    image: "https://imgur.com/ygE1EiV.jpg",
+    image: "https://imgur.com/KwFWu98.jpg",
     link: "https://www.instagram.com/premier.nuts/"
   },
   {
