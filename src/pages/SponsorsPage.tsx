@@ -28,9 +28,9 @@ const sponsors: Sponsor[] = [
     link: "https://www.medusasolar.com/"
   },
   {
-    name: "Medusa Solar",
-    image: "https://imgur.com/auC8wCDdddddddddddd.jpg",
-    link: "https://www.medusasolar.com/"
+    name: "El Informador",
+    image: "https://imgur.com/s0w4ZJe.jpg",
+    link: "https://www.informador.mx/"
   },
   {
     name: "Sangrita del Cuñado",
