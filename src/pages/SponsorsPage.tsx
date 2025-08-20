@@ -199,7 +199,7 @@ const sponsors: Sponsor[] = [
   },
     {
     name: "ACA",
-    image: "https://imgur.com/XaututH.jpg",
+    image: "https://imgur.com/lQq2KIs.jpg",
     link: "https://www.instagram.com/acapadelmx/"
   },
   {
