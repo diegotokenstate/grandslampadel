@@ -8,9 +8,9 @@ interface Sponsor {
 
 const sponsors: Sponsor[] = [
   {
-    name: "Hornet Padel Pro",
-    image: "https://imgur.com/AudiMfN.jpg",
-    link: "https://www.instagram.com/hornetpadelpro/"
+    name: "Smash Padel",
+    image: "https://imgur.com/auC8wCD.jpg",
+    link: "https://www.instagram.com/smashpadelballs/"
   },
   {
     name: "Salsa del Impostor",
@@ -25,6 +25,11 @@ const sponsors: Sponsor[] = [
   {
     name: "Medusa Solar",
     image: "https://imgur.com/lfCE3Um.jpg",
+    link: "https://www.medusasolar.com/"
+  },
+  {
+    name: "Medusa Solar",
+    image: "https://imgur.com/auC8wCDdddddddddddd.jpg",
     link: "https://www.medusasolar.com/"
   },
   {
