@@ -194,7 +194,7 @@ const sponsors: Sponsor[] = [
   },
    {
     name: "Grupo Ocurrente",
-    image: "https://imgur.com/XaaSM5P.jpg",
+    image: "https://imgur.com/7MOX4rF.jpg",
     link: "https://www.instagram.com/grupoocurrente/"
   },
     {
