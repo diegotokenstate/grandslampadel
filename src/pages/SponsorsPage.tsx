@@ -109,7 +109,7 @@ const sponsors: Sponsor[] = [
   },
   {
     name: "La Historica Jersey Club",
-    image: "https://imgur.com/SxVflPo.jpg",
+    image: "https://imgur.com/m5kwHpx.jpg",
     link: "https://www.instagram.com/lahistoricajerseyclub/?hl=es-la"
   },
   {
