@@ -234,7 +234,7 @@ const sponsors: Sponsor[] = [
   },
     {
     name: "Refuse",
-    image: "https://imgur.com/cc5ErFm.jpg",
+    image: "https://imgur.com/R2AJnbV.jpg",
     link: "https://www.instagram.com/refuse.mx/"
   },
     {
