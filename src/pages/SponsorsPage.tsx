@@ -24,7 +24,7 @@ const sponsors: Sponsor[] = [
   },
   {
     name: "Medusa Solar",
-    image: "https://imgur.com/PKqlmEQ.jpg",
+    image: "https://imgur.com/lfCE3Um.jpg",
     link: "https://www.medusasolar.com/"
   },
   {
