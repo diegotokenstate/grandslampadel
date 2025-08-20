@@ -219,7 +219,7 @@ const sponsors: Sponsor[] = [
   },
     {
     name: "Habits",
-    image: "https://imgur.com/eJ4OwrU.jpg",
+    image: "https://imgur.com/Sy57tjf.jpg",
     link: "https://www.instagram.com/habitsproteins/"
   },
     {
