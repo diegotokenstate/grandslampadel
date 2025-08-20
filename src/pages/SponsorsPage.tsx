@@ -229,7 +229,7 @@ const sponsors: Sponsor[] = [
   },
     {
     name: "Los Charros",
-    image: "https://imgur.com/yiFs2aZ.jpg",
+    image: "https://imgur.com/CBEt2gn.jpg",
     link: "https://www.instagram.com/charrosbeisbol/"
   },
     {
