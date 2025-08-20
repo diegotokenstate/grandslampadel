@@ -241,6 +241,16 @@ const sponsors: Sponsor[] = [
     name: "AO Sports",
     image: "https://imgur.com/WqWIvBo.jpg",
     link: "https://www.instagram.com/ao.sport.mx/"
+  },
+ {
+    name: "Gleytor",
+    image: "https://imgur.com/EW4nfMD.jpg",
+    link: "https://www.instagram.com/gleytormx/"
+  }, 
+  {
+    name: "WTMH",
+    image: "https://imgur.com/ToNJwhX.jpg",
+    link: "https://www.instagram.com/wtmh___/"
   }
 ];
 
